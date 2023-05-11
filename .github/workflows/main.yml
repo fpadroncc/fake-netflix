@@ -1,0 +1,12 @@
+name: Say Hello
+on:
+  pull_request:
+    branches:
+    - main
+jobs:
+  build_project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo the message
+        run: |
+          yarn run build
