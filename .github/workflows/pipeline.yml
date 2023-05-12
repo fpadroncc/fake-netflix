@@ -1,4 +1,4 @@
-name: Say Hello
+name: Check Project
 on:
   pull_request:
     branches:
