@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useCallback, useState } from "react";
 import Input from "@/components/input";
+import Image from "next/image";
 
 const Auth = () => {
   const [email, setEmail] = useState("");
